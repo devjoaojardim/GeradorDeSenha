@@ -97,7 +97,10 @@ class _HomeState extends State<Home> {
                 child: Text(
                 _senha,
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-              ),)
+              ),),
+              SizedBox(height: 8,),
+              if(!_senha.isEmpty)
+                Text('Clique na senha para Copia.')
 
             ],
           ),
