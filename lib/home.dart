@@ -209,6 +209,12 @@ class _HomeState extends State<Home> {
                             ),
                             ElevatedButton(
                               onPressed: () {
+                                Fluttertoast.showToast(
+                                  msg: "Senha salva com sucesso.",
+                                  gravity: ToastGravity.BOTTOM,
+                                  backgroundColor: Colors.grey[700],
+                                  textColor: Colors.white,
+                                );
                                 _savePassword(_senha, _nameController.text);
                                 Navigator.of(context).pop();
                               },

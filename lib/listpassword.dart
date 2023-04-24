@@ -41,7 +41,7 @@ class _PasswordListState extends State<PasswordList> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text('Lista de Senhas'),
+        title: const Text('Senhas salvas'),
         backgroundColor: Colors.black,
       ),
       body: Padding(
